@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* my stuff */
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+  box-sizing: border-box;
+ font-family: 'Muli', sans-serif;
+ background-color: #d9e2e5;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: all .25s ease-in-out;
+}
+
+a:hover {
+  color:rgba(0,0,0,.5)
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+nav{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+ nav ul {
+   margin-left:8%;
+  display: flex;
+  justify-content: space-between;
+
+  list-style-type: none;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ nav  li {
+
+  padding: 5px;
+
+}
+ 
+
+.skills ul {
+  display: flex;
+  flex-wrap:wrap;
+ justify-content: center;
+ list-style-type: none;
+
+}
+
+.skills li {
+text-align: center;
+  width: 25%;
+  margin: 3%;
+  margin-bottom: 5%;
+}
+
+.skills li p {
+  font-size:24px;
+}
+
+
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1547634678-181c1103b6ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=925&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter:  grayscale(100%);
+height: 100vh;
+
+
+}
+
+section {
+  padding: 5%;
+  border-radius: 25px;
+  background-color: rgba(255,255,255,.8);
+  width: 45%;
+  position: relative;
+  top: 15%;
+  left:8%;
+
+}
+
+section h1, h2, p, .buttonHolder {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 19px;
+}
+
+.buttonHolder{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonHolder button {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  text-align: center;
+  transition: ease-in-out 1s;
+  padding: 3%;
+
+}
+
+.buttonHolder button:hover {
+  background-color: rgba(255,255,255,1);
+  color: black;
+
+}
+
+.bio {
+  padding: 2% 1%;
+  width: 80%;
+margin-top:10%;
+margin-bottom: 10%;
+border-radius: 20px;
+  position: relative;
+  left:18%;
+
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.bio h1{
+  text-align: left;
+}
+
+.bio>div{
+  width: 50%;
+
+
+}
+
+.bio img {
+width: 25%;
+border-radius: 20px;
+
+}
+
+.contactCard ul{
+display: flex;
+wrap:wrap;
+justify-content: space-between;
+align-items: center;
+width: 80%;
+margin: auto;
+}
+
+.skills {
+  /* width: 75%;  */
+  /* margin-left:25%; */
+  text-align: center;
+
+  /* padding: 3%; */
+}
+
+
+.contactCard {
+  padding: 5% 0;
+  background-color: grey;
+}
+
+.contactCard h2 {
+  text-align: center;
+}
+
+.contactCard li {
+  text-align: center;
+}
+
