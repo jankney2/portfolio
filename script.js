@@ -5,4 +5,4 @@ let mom=  document.getElementById('mom')
     swal('eat a cookie alert','Mom....Everything is ok. I promise. Go eat some chocolate chip cookies. :) ')
   })
   
-// swal('hello world', 'everything is awesome')
+swal('hello world', 'everything is awesome')
