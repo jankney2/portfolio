@@ -7,24 +7,35 @@ margin: auto;
 
 .projectCont {
   background-color:rgba(232, 240, 255, .6);
-width: 50%; 
+/* width: 50%;  */
 padding: 2% 0 ;
 margin: 5% 0;
 border-radius: 25% 100%;
-
-}
-
-.projectCont img {
-  width: 80%;
-  float: right;
+display: flex;
 }
 
 
+
+/* 
 .projectCont:nth-of-type(2){
   margin-left: 50%;
   border-radius: 100% 25%;
-}
+} */
 
 .projectHolder h1{
 text-align: center;
+}
+
+
+
+.imgHolder img {
+  width: 60%;
+  margin: 20px 0;
+}
+
+.imgHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
