@@ -53,6 +53,10 @@ table {
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   box-sizing: border-box;
  font-family: 'Muli', sans-serif;
@@ -167,7 +171,7 @@ p {
   border: none;
   width: 100%;
   text-align: center;
-  transition: ease-in-out 1s;
+  transition: ease-in-out .25s;
   padding: 3%;
 
 }
@@ -175,6 +179,7 @@ p {
 .buttonHolder button:hover {
   background-color: rgba(255,255,255,1);
   color: black;
+  border-radius: 20px;
 
 }
 
@@ -230,7 +235,7 @@ margin: auto;
 
 .contactCard {
   padding: 5% 0;
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 .contactCard h2 {
