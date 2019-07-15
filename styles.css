@@ -249,3 +249,35 @@ margin: auto;
   text-align: center;
 }
 
+.popUp {
+width: 50%;
+height: 33%;
+background-color: rgba(255,255,255,.9);
+padding: 3%;
+border-radius: 25px;
+position: relative;
+top:25%;
+left:25%;
+}
+
+.grayOut {
+  position: fixed;
+  top:0;
+  /* margin-left: 25vw; */
+  width:100vw;
+
+  height: 100vh;
+  background-color:rgba(233,120,220,.5);
+  /* z-index: -1; */
+}
+
+.hidden {
+  display:none;
+}
+
+.exit {
+  /* float:right; */
+  position: absolute;;
+  left:91%;
+  top:5%;
+}

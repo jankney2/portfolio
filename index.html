@@ -1,71 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jacob Ankney</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Jacob Ankney</title>
-  
-  <script src="https://kit.fontawesome.com/6e7abd2295.js"></script>
+    <script src="https://kit.fontawesome.com/6e7abd2295.js"></script>
 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-  <link rel="stylesheet" href="./styles.css">
-</head>
+  <body>
+    <div class="homePage">
+      <nav>
+        <ul>
+          <a href="./index.html">
+            <li>Home</li>
+          </a>
+          <div>
+            <a href="./pages/projects.html">
+              <li>Projects</li>
+            </a>
 
-<body>
+            <a href="#contactCard">
+              <li>Get in Touch</li>
+            </a>
+          </div>
+        </ul>
+      </nav>
 
+      <div class="hero">
+        <section>
+          <h1>Jacob Ankney</h1>
+          <h2>Web Developer</h2>
+          <h2>React.js | React Native | Node.js</h2>
 
-
-  <div class='homePage'>
-    <nav>
-      <ul>
-
-
-        <a href='./index.html'>
-          <li> Home</li>
-        </a>
-<div>
-<a href="./pages/projects.html">
-<li> Projects</li>
-</a>
-
-<a href="#contactCard">
-<li> Get in Touch</li>
-</a></div>
-
-      </ul>
-    </nav>
-
-    <div class="hero">
-      <section>
-
-      <h1>Jacob Ankney</h1>
-      <h2>Web Developer | React.js | Node.js</h2>
-
-
-        <p>If you're on this site you're curious enough about my work to talk. <span id="contactClick">Click here</span> to contact me.</p>
-
-
-      </section>
-
+          <p>
+            If you're on this site you're curious enough about my work to talk.
+            <span id="contactClick">Click here</span> to contact me.
+          </p>
+        </section>
+      </div>
     </div>
 
+    <div class="grayOut hidden" id="popUp">
+      <div class="popUp">
+          <i class="far fa-times-circle fa-3x exit" id="exitClick"></i>
+        <h1>Get In Touch</h1>
 
-  </div>
+        <div class="contactCard">
+          <ul>
+            <li><i class="fas fa-mobile-alt fa-3x"></i>757-202-5877</li>
 
-  
+            <li><i class="far fa-envelope fa-3x"></i>jhankney@gmail.com</li>
 
+            <a href="https://www.linkedin.com/in/jacob-ankney/" target="_blank">
+              <li>
+                <i class="fab fa-linkedin-in fa-3x"></i
+                >linkedin.com/jacob-ankney
+              </li></a
+            >
 
+            <a href="https://github.com/jankney2" target="_blank">
+              <li>
+                <i class="fab fa-github fa-3x "></i>github.com/jankney2
+              </li></a
+            >
+          </ul>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-  <script src='./script.js'>  
-  </script>
-</body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>

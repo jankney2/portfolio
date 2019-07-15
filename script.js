@@ -1,7 +1,15 @@
+let contactMe= document.getElementById('contactClick')
+console.log(contactMe, 'contact')
+let exitClick=document.getElementById('exitClick')
 
 
-let mom=  document.getElementById('mom')
-  mom.addEventListener('click', ()=>{
-    swal('eat a cookie alert','Mom....Everything is ok. I promise. Go eat some chocolate chip cookies. :) ')
-  })
+
+contactMe.addEventListener('click', ()=>{
+  document.getElementById('popUp').classList.remove('hidden')
   
+  
+})
+
+exitClick.addEventListener('click', ()=>{
+document.getElementById('popUp').classList.add('hidden')
+})
