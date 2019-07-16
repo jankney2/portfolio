@@ -1,17 +1,25 @@
 let contactMe= document.getElementById('contactClick')
 console.log(contactMe, 'contact')
 let exitClick=document.getElementById('exitClick')
-
-
+let navClick=document.getElementById('contactNav')
+let text= document.getElementsByClassName('text')[0]
 
 contactMe.addEventListener('click', ()=>{
   document.getElementById('popUp').classList.remove('hidden')
-  document.getElementsByClassName('hero')[0].getElementsByTagName('section')[0].classList.add('hidden')
+text.classList.add('hidden')
   
   
 })
 
+
+
+navClick.addEventListener('click', ()=>{
+  document.getElementById('popUp').classList.remove('hidden')
+})
+
 exitClick.addEventListener('click', ()=>{
 document.getElementById('popUp').classList.add('hidden')
-document.getElementsByClassName('hero')[0].getElementsByTagName('section')[0].classList.remove('hidden')
+
+text.classList.remove('hidden')
+
 })
